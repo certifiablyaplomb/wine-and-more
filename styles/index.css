@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(20, 17, 17);
+    padding: 0px;
+    margin: 0px;
+}
+.page-container{
+    width:100vw;
+}
+.index-container{
+    position: relative;
+    width:100%;
+}
+.page-image{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+
+
+.hamburger-icon{
+    padding: 15px;
+    width:25px;
+    transition: transform .5s;
+    
+}
+.hamburger-header{
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    transition: background-color .5s;
+    margin-bottom:45vw;
+}
+.hamburger-menu-buttons-list{
+    margin-right: 50px;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility 0s linear .5s;;
+}
+.hamburger-menu-buttons-list.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 
+        opacity .5s,
+        visibility 0s; 
+}
+.hamburger-menu-button{
+    transition: font-weight .3s;
+}
+.hamburger-menu-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.title-text{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    top: 15%;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color:white;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+}
+
+
+.menu-button{
+    display: block;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 2.2vw, 3rem);
+    font-weight:500;
+    margin-top:2vw;
+    padding: 15px 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(14, 1, 1);
+    transition: background-color 0.3s, font-weight 0.3s;
+}
+.menu-button:hover{
+    background-color: rgba(255, 244, 229, .1);
+    font-weight:bold;
+    cursor: pointer;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    color:rgb(184, 184, 184);
+  
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
+.hours{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+.hours-container{
+    display: flex;
+}
+.l-hblock{
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+}
