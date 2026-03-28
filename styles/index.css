@@ -67,7 +67,7 @@ body{
     position: absolute;
     align-items: center;
     flex-direction: column;
-    top: 25%;
+    top: 32%;
     left:50%;
     transform: translateX(-50%);
     text-align: center;
@@ -79,7 +79,7 @@ body{
 
 .menu-button{
     display: block;
-    color:white;
+    color:black;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: clamp(1rem, 2.2vw, 3rem);
     font-weight:500;
