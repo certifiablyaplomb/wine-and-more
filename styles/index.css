@@ -79,6 +79,7 @@ body{
 
 .menu-button{
     display: block;
+    color:white;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: clamp(1rem, 2.2vw, 3rem);
     font-weight:500;
