@@ -71,7 +71,7 @@ body{
     left:50%;
     transform: translateX(-50%);
     text-align: center;
-    color:white;
+    color:rgb(138, 138, 138);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 4vw;
 }
@@ -79,7 +79,7 @@ body{
 
 .menu-button{
     display: block;
-    color:black;
+    color:rgb(138, 138, 138);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: clamp(1rem, 2.2vw, 3rem);
     font-weight:500;
@@ -88,7 +88,7 @@ body{
     background-color: transparent;
     border-style: solid;
     border-width: 3px;
-    border-color:rgb(14, 1, 1);
+    border-color:rgb(138, 138, 138);
     transition: background-color 0.3s, font-weight 0.3s;
 }
 .menu-button:hover{
