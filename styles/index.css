@@ -67,7 +67,7 @@ body{
     position: absolute;
     align-items: center;
     flex-direction: column;
-    top: 15%;
+    top: 25%;
     left:50%;
     transform: translateX(-50%);
     text-align: center;
