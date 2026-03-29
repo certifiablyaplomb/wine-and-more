@@ -48,13 +48,27 @@
 .item{
     margin-right:40px;
 }
-.read-more{
+.read-more-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     font-size: 13px;
     margin-left: 25px;
     display: flex;
-    align-items:center;
+}
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 .right-arrow{
     height: 15px;
     transition: transform .3s;
+    margin-left: 3px;
+}
+.description{
+    max-height: 0px;
+    opacity: 0;
+    transition: opacity .5s, max-height .5s;
 }
