@@ -6,7 +6,7 @@ hamburgerIcon.addEventListener("click", () => {
     clicked = !clicked;
     if (clicked){
         hamburgerIcon.style.transform="rotate(90deg)";
-        hamburgerMenu.style.backgroundColor = "rgba(255, 244, 229, .1)";
+        hamburgerMenu.style.backgroundColor = "rgba(216, 216, 216, .9)";
 
         hamburgerMenuButtons.classList.toggle('active');
         hamburgerMenuButtons.style.opacity= "1";
