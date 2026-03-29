@@ -1,8 +1,4 @@
-body{
-    background-color: rgb(20, 17, 17);
-    padding: 0px;
-    margin: 0px;
-}
+
 .page-container{
     width:100vw;
 }
@@ -15,52 +11,6 @@ body{
     width: 100%;
     height:auto;
 }
-
-
-
-.hamburger-icon{
-    padding: 15px;
-    width:25px;
-    transition: transform .5s;
-    
-}
-.hamburger-header{
-    position: absolute;
-    display: flex;
-    top: 0;
-    width: 100%;
-    transition: background-color .5s;
-    margin-bottom:45vw;
-}
-.hamburger-menu-buttons-list{
-    margin-right: 50px;
-    margin-left: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    color: rgb(138, 138, 138);
-    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .5s, visibility 0s linear .5s;;
-}
-.hamburger-menu-buttons-list.active{
-    opacity: 1;
-    visibility: visible;
-    transition: 
-        opacity .5s,
-        visibility 0s; 
-}
-.hamburger-menu-button{
-    transition: font-weight .3s;
-}
-.hamburger-menu-button:hover{
-    cursor: pointer;
-    font-weight: bold;
-}
-
-
 
 .title-text{
     display: flex;
@@ -79,7 +29,7 @@ body{
 
 .menu-button{
     display: block;
-    color:rgb(138, 138, 138);
+    color:rgb(202, 202, 202);;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: clamp(1rem, 2.2vw, 3rem);
     font-weight:500;
@@ -88,11 +38,12 @@ body{
     background-color: transparent;
     border-style: solid;
     border-width: 3px;
-    border-color:rgb(138, 138, 138);
+    border-color:rgb(202, 202, 202);
     transition: background-color 0.3s, font-weight 0.3s;
+    text-decoration: none;
 }
 .menu-button:hover{
-    background-color: rgba(255, 244, 229, .1);
+    background-color: rgba(255, 244, 229, .2);
     font-weight:bold;
     cursor: pointer;
 }

@@ -1,0 +1,59 @@
+.page-container{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    color: rgb(228, 226, 226);
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 15px;;
+}
+.menu-section{
+    width: 80vw;
+    border-style: solid;
+    border-color: white;
+    padding:20px;
+}
+.item-line{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.item-line > div:nth-child(1) {
+  flex: 5;                      
+}
+.item-line > div:nth-child(2),
+.item-line > div:nth-child(3) {
+  flex: 1;         
+}             
+.item, .price, .type{
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    color: rgb(228, 226, 226);
+    margin-left: 20px;
+
+}
+.type{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.item{
+    margin-right:40px;
+}
+.read-more{
+    font-size: 13px;
+    margin-left: 25px;
+    display: flex;
+    align-items:center;
+}
+.right-arrow{
+    height: 15px;
+    transition: transform .3s;
+}

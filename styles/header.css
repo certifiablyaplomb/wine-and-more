@@ -1,0 +1,44 @@
+
+.hamburger-icon{
+    padding: 15px;
+    width:25px;
+    transition: transform .5s;
+    
+}
+.hamburger-header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    transition: background-color .5s;
+    margin-bottom:45vw;
+}
+.hamburger-menu-buttons-list{
+    margin-right: 50px;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility 0s linear .5s;
+}
+.hamburger-menu-buttons-list.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 
+        opacity .5s,
+        visibility 0s; 
+}
+.hamburger-menu-button{
+    color: rgb(202, 202, 202);
+    transition: font-weight .3s;
+    text-decoration: none;
+}
+.hamburger-menu-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
