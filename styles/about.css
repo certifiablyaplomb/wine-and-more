@@ -33,10 +33,9 @@
     justify-content: center;
     width: 80vw;
     max-width: 600px;
-    height: 400px;
+    height: auto;
     color: whitesmoke;
     border: solid;
-    color: whitesmoke;
     border-radius: 5%;
     overflow: hidden;
     margin-bottom: 40px;
