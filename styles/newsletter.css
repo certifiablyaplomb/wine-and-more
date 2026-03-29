@@ -55,14 +55,14 @@
     margin-bottom: 40px;
 }
 .the-latest{
-    display: flex;
+    display: block;
 }
-.the-latest > div:nth-child(1) {
+/* .the-latest > div:nth-child(1) {
   flex: 1;                      
 }
 .the-latest > div:nth-child(2){
   flex: 1;         
-} 
+}  */
 .title{
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -71,15 +71,18 @@
     text-underline-offset: 5px;
 }
 .text{
+    display: block;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 18px;
     color:white;
 }
 .image{
+    float:right;
     width: 50%;
     height: 30%;
     border-style: solid;
     border-radius: 10px;
+    margin-left: 4px;
 }
 
 .events-list{
@@ -87,3 +90,4 @@
     font-size: 18px;
     color:white;
 }
+
