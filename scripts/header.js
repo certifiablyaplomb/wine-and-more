@@ -3,9 +3,9 @@ const hamburgerMenu = document.querySelector('.js-hamburger-header');
 const hamburgerMenuButtons = document.querySelector('.js-hamburger-menu-buttons-list');
 
 const current_path= window.location.pathname;
-
+console.log(current_path)
 let clicked = false;
-if (current_path != '/index.html'){
+if (current_path != '/index.html' && current_path != 'wine-and-more/index.html'){
     clicked = true;
     hamburgerIcon.style.transform="rotate(90deg)";
     hamburgerMenu.style.backgroundColor = "rgba(119, 119, 119, 0.9)";
