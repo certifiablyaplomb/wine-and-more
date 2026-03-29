@@ -1,0 +1,94 @@
+
+.title, .about-title{
+    text-align: center;
+    color:whitesmoke;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:whitesmoke;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 80vw;
+    margin-bottom: 25px;
+}
+.about-title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.p-text{
+    width:80%;
+    line-height: 155%;
+}
+
+
+.image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 600px;
+    height: 400px;
+    color: whitesmoke;
+    border: solid;
+    color: whitesmoke;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+}
+.display-image{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.arrows{
+    width: 90%;
+    height:40px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+}
+.scroll-arrow{
+    position: relative;
+    height:40px;
+}
+.right-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.left-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:whitesmoke;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    line-height: 155%;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    width: 80vw;
+    max-width: 600px;
+}
+.contact-info{
+    color:whitesmoke;
+    text-decoration: none;
+    transition: font-weight .5s;
+}
+.contact-info:hover{
+    font-weight: bold;
+}

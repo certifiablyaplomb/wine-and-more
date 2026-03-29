@@ -1,9 +1,4 @@
-.page-container{
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .title{
     display: flex;
@@ -62,12 +57,17 @@
     align-items: center;
     font-weight: bold;
 }
+
 .right-arrow{
     height: 15px;
     transition: transform .3s;
     margin-left: 3px;
 }
+.right-arrow:hover{
+    cursor: pointer;
+}
 .description{
+    z-index: -1;
     max-height: 0px;
     opacity: 0;
     transition: opacity .5s, max-height .5s;
