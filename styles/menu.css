@@ -95,7 +95,8 @@
     max-height: 400px;
     overflow: hidden;
     border: solid;
-    border-width: 5px;
+    border-color: white;
+    border-width: 3px;
     border-radius: 5%;
     margin-bottom: 10px;
     /* top: 0px; */

@@ -1,0 +1,185 @@
+/* Reviews Section */
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  max-width: 600px;
+  margin: 40px auto;
+  color: whitesmoke;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
+
+.reviews-title {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.review-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-box {
+  width: 100%;
+  min-height: 150px;
+  padding: 20px 40px; /* padding for arrows overlay */
+  background-color: rgba(30, 30, 30, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.review-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.review-author {
+  font-size: 16px;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Arrows */
+.arrow {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 0 10px;
+  transition: transform 0.3s;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.arrow:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+/* Universal Read More Link */
+.read-more {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.read-more a {
+  color: #fff;
+  text-decoration: underline;
+  transition: font-weight 0.3s;
+}
+
+.read-more a:hover {
+  font-weight: bold;
+}/* Reviews Section */
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  max-width: 600px;
+  margin: 40px auto;
+  color: whitesmoke;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
+
+.reviews-title {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.review-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-box {
+  width: 100%;
+  min-height: 150px;
+  padding: 20px 40px; /* padding for arrows overlay */
+  background-color: rgba(30, 30, 30, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.review-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.review-author {
+  font-size: 16px;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Arrows */
+.arrow {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 0 10px;
+  transition: transform 0.3s;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.arrow:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+/* Universal Read More Link */
+.read-more {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.read-more a {
+  color: #fff;
+  text-decoration: underline;
+  transition: font-weight 0.3s;
+}
+
+.read-more a:hover {
+  font-weight: bold;
+}
