@@ -2,7 +2,7 @@ import { imageList } from "../data/images.js";
 
 const leftArrow = document.querySelector('.js-left-arrow');
 const rightArrow = document.querySelector('.js-right-arrow');
-const leftImage = document.querySelector('.js-display-image-right');
+const leftImage = document.querySelector('.js-display-image-left');
 const mainImage = document.querySelector('.js-display-image-main');
 const rightImage = document.querySelector('.js-display-image-right');
 

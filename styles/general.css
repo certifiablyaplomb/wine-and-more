@@ -3,6 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
     margin-bottom: 40px;
+    overflow-x: hidden;
 }
 .page-container{
     padding-top: 80px;
@@ -11,6 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     width:100vw;
+    overflow-x: hidden;
 }
 .wine-ring{
     z-index: -1000;
@@ -31,6 +33,7 @@ body{
     bottom: -12%;
     right:-20%;
     width:400px;
+
 }
 .wr4{
     top: 15%;
