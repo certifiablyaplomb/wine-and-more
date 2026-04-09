@@ -6,6 +6,7 @@ body{
 }
 .page-container{
     padding-top: 80px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;

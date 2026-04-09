@@ -1,16 +1,24 @@
 export const imageList=[
     {
-        name: 'Stock Image0',
-        source: './images/t-ed-hOgog7l-iuY-unsplash.jpg', 
+        name: 'paint and sip',
+        source: './images/about-us-images/paint-and-sip.jpg', 
     },
     {
-        name: 'Stock Image1',
-        source: './images/display/kym-ellis-aF1NPSnDQLw-unsplash.jpg', 
+        name: 'charcutterie',
+        source: './images/about-us-images/charcut.jpg', 
     },
     {
-        name: 'Stock Image2',
-        source: './images/display/hermes-rivera-aK6WGqxyHFw-unsplash.jpg', 
-    }
+        name: 'dining',
+        source: './images/about-us-images/dining.jpg', 
+    },
+    {
+        name: 'dining2',
+        source: './images/about-us-images/dining2.jpg', 
+    },
+    {
+        name: 'sipping',
+        source: './images/about-us-images/sipping.jpg', 
+    },
     
 ]
 export const menuImages=[
