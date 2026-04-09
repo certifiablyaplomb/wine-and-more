@@ -10,11 +10,11 @@
     z-index: 1000;
     display: flex;
     top: 0;
-    width: 100%;
+    width: 100vw;
     transition: background-color .5s;
     /* margin-bottom:45vw; */
-    margin-left: 0px;  
-    padding-left: 20px;
+    /* margin-left: 0px;  
+    padding-left: 20px; */
 }
 .hamburger-menu-buttons-list{
     margin-right: 50px;
