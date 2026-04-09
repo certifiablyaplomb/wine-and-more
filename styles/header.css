@@ -37,6 +37,7 @@
 }
 .hamburger-menu-button{
     color: rgb(252, 252, 252);
+    font-size: 18px;
     transition: font-weight .3s;
     text-decoration: none;
 }
