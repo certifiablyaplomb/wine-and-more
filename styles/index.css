@@ -13,6 +13,8 @@
 }
 
 .title-text{
+    /* background-color: aliceblue; */
+    width:80%;
     display: flex;
     position: absolute;
     align-items: center;
@@ -23,9 +25,9 @@
     text-align: center;
     color:rgb(212, 206, 206);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: 7vw;
+    font-size: clamp(24px, 9vw, 60px);
     font-weight: 500;
-    -webkit-text-stroke: .111vw rgb(0, 0, 0); 
+    -webkit-text-stroke: 1px black;; 
 }
 
 
@@ -33,13 +35,13 @@
     display: block;
     color:rgb(0,0,0);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: clamp(1.3rem, 2.2vw, 3rem);
-    font-weight:500;
+    font-size: clamp(1.3rem, 2.9vw, 3rem);
+    font-weight:bold;
     margin-top:2vw;
     padding: 15px 30px;
     background-color: transparent;
     border-style: solid;
-    border-width: 3px;
+    border-width: 4px;
     border-color:rgb(0,0,0);
     transition: background-color 0.3s, font-weight 0.3s;
     text-decoration: none;

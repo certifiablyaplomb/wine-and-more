@@ -57,9 +57,16 @@ function applyDecoBorders() {
     });
 }
 
-requestAnimationFrame(()=>{
-    requestAnimationFrame(()=>{
+window.addEventListener('load', () => {
+    requestAnimationFrame(() => {
         applyDecoBorders();
     });
 });
-window.addEventListener('resize', applyDecoBorders);
+let resizeTimeout;
+
+// window.addEventListener('resize', () => {
+//     clearTimeout(resizeTimeout);
+//     resizeTimeout = setTimeout(() => {
+//         applyDecoBorders();
+//     }, 100);
+// });
