@@ -1,5 +1,5 @@
 
-.newsletter-signup{
+/* .newsletter-signup{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,8 +48,14 @@
     font-size: 8px;
     width:70%;
 
+} */
+.wtam-header{
+    position: relative;
+    width: 80%;
+    padding:0px;
+    margin-top: -160px;
+    margin-bottom: -170px;
 }
-
 .section{
     width:80vw;
     margin-bottom: 40px;

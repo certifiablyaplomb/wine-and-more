@@ -13,3 +13,17 @@ export const imageList=[
     }
     
 ]
+export const menuImages=[
+    {
+        name: 'charcutterie',
+        source: './images/menu-images/charc.jpg', 
+    },
+    {
+        name: 'cheese',
+        source: './images/menu-images/cheese.jpg', 
+    },
+    {
+        name: 'olives',
+        source: './images/menu-images/olives.jpg', 
+    }
+]

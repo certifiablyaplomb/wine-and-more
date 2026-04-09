@@ -11,12 +11,21 @@
     text-decoration: underline;
     margin-bottom: 15px;;
 }
+.subheader{
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    color: rgb(228, 226, 226);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 .menu-section{
     width: 80vw;
-    border-style: solid;
+    position: relative;
     border-color: white;
     padding:20px;
+    padding-top: 30px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 .item-line{
     display: flex;
@@ -34,6 +43,7 @@
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     color: rgb(228, 226, 226);
     margin-left: 20px;
+    font-size: 18px;
 
 }
 .type{
@@ -57,7 +67,9 @@
     align-items: center;
     font-weight: bold;
 }
-
+.read-more:hover{
+    cursor: pointer;
+}
 .right-arrow{
     height: 15px;
     transition: transform .3s;
@@ -71,4 +83,54 @@
     max-height: 0px;
     opacity: 0;
     transition: opacity .5s, max-height .5s;
+    font-size: 15px;
+}
+
+
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 320px;
+    overflow: hidden;
+    border: solid;
+    border-radius: 10px;
+}
+.image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 600px;
+    height: auto;
+    color: whitesmoke;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+}
+.display-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.arrows{
+    width: 90%;
+    height:40px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+}
+.scroll-arrow{
+    position: relative;
+    height:60px;
+}
+.right-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.left-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }

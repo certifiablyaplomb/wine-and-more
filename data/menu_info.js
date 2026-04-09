@@ -87,3 +87,88 @@ export const rWines = [
         id:"rw5"
     },
 ]
+
+export const WIS = [
+    {
+        name:"Margaritas",
+        price: 12,
+    },
+    {
+        name:"Mules",
+        price: 12,
+    },
+    {
+        name:"Martini's",
+        price: 12,
+    },
+    {
+        name:"Vodka Cocktails",
+        price: 10,
+    },
+    {
+        name:"Mai Tai",
+        price: 12,
+    },
+    {
+        name:"Bloody Mary",
+        price: 12,
+    },
+    {
+        name:"Claw-Tails",
+        price: 7,
+    },
+    {
+        name:"Wine Slushes",
+        price: 10,
+    },
+    {
+        name:"Prosecco",
+        price: 12,
+    },
+    {
+        name:"Austin East Black Berry Hard Cider",
+        price: 7,
+    },
+    {
+        name:"Spritzee",
+        price: 7,
+    },
+    {
+        name:"Sangria (weekends only)",
+        price: 10,
+    },
+]
+export const beers = [
+    {
+        name:"AZ - Mother Road - Tower Station - Pale Ale",
+        price: 4,
+    },
+    {
+        name:"AZ - Full Moon - Belgian Wheat Ale",
+        price: 8,
+    },
+    {
+        name:"AZ - WOW - Four Peaks",
+        price: 4,
+    },
+    {
+        name:"AZ - The Shop - Church Music - Hazy IPA, Juicy and Tropical",
+        price: 8,
+    },
+    {
+        name:"AZ - Huss - Papago Orange Blossom - Light Wheat Ale",
+        price: 8,
+    },
+    {
+        name:"Domestic - Michelob Ultra",
+        price: 6,
+    },
+    {
+        name:"Domestic - Coors Light",
+        price: 6,
+    },
+    {
+        name:"Imported - Dos Equis",
+        price: 7,
+    },
+]

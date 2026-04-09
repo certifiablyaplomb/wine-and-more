@@ -24,6 +24,9 @@
 .p-text{
     width:80%;
     line-height: 155%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 20px;
 }
 
 
@@ -57,7 +60,7 @@
 }
 .scroll-arrow{
     position: relative;
-    height:40px;
+    height:60px;
 }
 .right-arrow:hover{
     cursor: pointer;
@@ -77,6 +80,7 @@
     color:whitesmoke;
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     line-height: 155%;
+    font-size: 25px;
     border-style: solid;
     border-color: whitesmoke;
     border-radius: 10px;
@@ -84,10 +88,25 @@
     max-width: 600px;
 }
 .contact-info{
+    font-size: 20px;
     color:whitesmoke;
     text-decoration: none;
     transition: font-weight .5s;
 }
 .contact-info:hover{
+    font-weight: bold;
+}
+.address-container{
+    text-align: center;
+    line-height: 100%;
+}
+.address{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color:whitesmoke;
+    transition: font-weight .3s;
+}
+.address:hover{
     font-weight: bold;
 }

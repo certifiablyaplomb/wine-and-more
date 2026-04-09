@@ -17,13 +17,14 @@
     position: absolute;
     align-items: center;
     flex-direction: column;
-    top: 32%;
+    top: 20%;
     left:50%;
     transform: translateX(-50%);
     text-align: center;
     color:rgb(212, 206, 206);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 7vw;
+    font-weight: 500;
     -webkit-text-stroke: .111vw rgb(0, 0, 0); 
 }
 
@@ -64,9 +65,23 @@
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-.contact-info{
+.address-container{
+    margin-bottom:30px;
+    text-align: center;
+}
+.address{
     text-decoration: none;
     color:rgb(184, 184, 184);
+    transition: font-weight .3s;
+}
+.address:hover{
+    font-weight: bold;
+}
+.contact-info{
+    
+    text-decoration: none;
+    color:rgb(184, 184, 184);
+    margin-bottom: 8px;
     transition: font-weight .2s;
 }
 .contact-info:hover{
