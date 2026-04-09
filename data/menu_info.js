@@ -8,13 +8,13 @@ export const wWines = [
     },
     {
         name:"2023 Trullo Rheinbessen Riesling",
-        description: "none",
+        description: "An off-dry, aromatic German white wine, offering flavors of green apple, melon, and tropical fruit with a fresh, mineral-driven finish.",
         glassPrice: 12,
         bottlePrice: 25,
         id:"ww1"
     },
     {
-        name:"2023 White Blen - Stone Rose - Napa",
+        name:"2023 White Blend - Stone Rose - Napa",
         description: "none",
         glassPrice: 14,
         bottlePrice: 38,
@@ -36,7 +36,7 @@ export const wWines = [
     },
     {
         name:"2023 Chardonnay - Ramsey - California",
-        description: "none",
+        description: "A crisp, medium-bodied white wine featuring aromas of pear, green apple, citrus, and floral blossom.",
         glassPrice: 12,
         bottlePrice: 35,
         id:"ww5"
@@ -46,21 +46,21 @@ export const wWines = [
 export const rWines = [
     {
         name:"2021 Red Blend - Stone Rose - Napa",
-        description: "none",
+        description: "Features aromas of ripe black cherry and espresso, with flavors of blackberry, plum, and dark chocolate, leading to a velvety finish.",
         glassPrice: 12,
         bottlePrice: 28,
         id:"rw0"
     },
     {
         name:"2021 Butler Hill - Pinot Noit - OR",
-        description: "none",
+        description: "Features red currant, brambly blackberry, cocoa nibs, and steely minerality.",
         glassPrice: 15,
         bottlePrice: 38,
         id:"rw1"
     },
     {
-        name:"2022 Clssico Chianti - Balisca Cafaggio Estate",
-        description: "none",
+        name:"2022 Classico Chianti - Balisca Cafaggio Estate",
+        description: "A medium-bodied, savory red featuring notes of sour cherry, black fruits, and spices.",
         glassPrice: 15,
         bottlePrice: 42,
         id:"rw2"
@@ -81,7 +81,7 @@ export const rWines = [
     },
     {
         name:"2023 Malbec - Sur De Los Andes Classico - Argentina",
-        description: "none",
+        description: "Offers intense aromas of blueberries, plums, and violet notes.",
         glassPrice: 12,
         bottlePrice: 38,
         id:"rw5"
