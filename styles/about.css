@@ -91,14 +91,25 @@
     border-color: whitesmoke;
     border-radius: 10px;
     width: 80vw;
-    min-width: 480px;
+    /* min-width: 340px; */
     max-width: 600px;
 }
+
 .contact-info{
+    
     font-size: 20px;
     color:whitesmoke;
     text-decoration: none;
     transition: font-weight .5s;
+    overflow-wrap: break-word;
+}
+@media (max-width: 400px) {
+    .contact-box {
+        font-size: 20px;
+    }
+    .contact-info, .address {
+        font-size: 15px;
+    }
 }
 .contact-info:hover{
     font-weight: bold;
