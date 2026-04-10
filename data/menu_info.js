@@ -22,7 +22,7 @@ export const wWines = [
     },
     {
         name:"2023 Gran Blanco - Rio Claro Wines - AZ",
-        description: "none",
+        description: "Tropical fruit notes, which are balanced by a clean, crisp finish.",
         glassPrice: 12,
         bottlePrice: 30,
         id:"ww3"
@@ -67,7 +67,7 @@ export const rWines = [
     },
     {
         name:"2021 Primos - Rio Claro Winery - AZ",
-        description: "none",
+        description: "Deep fruit profiles, dark berries, and earthy, rustic notes influenced by high-elevation desert terroir.",
         glassPrice: 15,
         bottlePrice: 42,
         id:"rw3"
