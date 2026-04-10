@@ -113,9 +113,9 @@ let currentIndex= 0;
 
 loadImages();
 function loadImages(){
-    let leftImageSrc = menuImages[convert(currentIndex - 1)].source;
+    let leftImageSrc = menuImages[convert(currentIndex - 1, menuImages)].source;
     let mainImageSrc = menuImages[currentIndex].source;
-    let rightImageSrc = menuImages[convert(currentIndex + 1)].source;
+    let rightImageSrc = menuImages[convert(currentIndex + 1, menuImages)].source;
     leftImage.src = `${leftImageSrc}`
     mainImage.src = `${mainImageSrc}`
     rightImage.src = `${rightImageSrc}`
@@ -126,21 +126,22 @@ function loadImages(){
 
 leftArrow.addEventListener('click', ()=>{
     currentIndex-=1;
-    currentIndex = convert(currentIndex)
+    currentIndex = convert(currentIndex, menuImages)
     loadImages();
 })
 
 rightArrow.addEventListener('click', ()=>{
     currentIndex +=1;
-    currentIndex = convert(currentIndex)
+    currentIndex = convert(currentIndex, menuImages)
     loadImages();
 })
 
-function convert(index){
-    if(index < 0) index = menuImages.length - 1;
-    else if(index >= menuImages.length) index = 0;
+function convert(index, listname){
+    if(index < 0) index = listname.length - 1;
+    else if(index >= listname.length) index = 0;
     return index;
 }
+
 
 const tapasSec = document.querySelector('.js-read-more-tapas');
 const tapasArrow = document.querySelector('.js-right-arrow-tapas');
@@ -159,3 +160,42 @@ tapasSec.addEventListener('click', ()=>{
             tapasDesc.style.opacity = "1"
         }
 })
+
+
+
+
+
+
+import { drinkImages } from "../data/images.js";
+
+const leftArrowWIS = document.querySelector('.js-left-arrow-wis');
+const rightArrowWIS = document.querySelector('.js-right-arrow-wis');
+const leftImageWIS = document.querySelector('.js-display-image-left-wis');
+const mainImageWIS = document.querySelector('.js-display-image-main-wis');
+const rightImageWIS = document.querySelector('.js-display-image-right-wis');
+
+let currentIndexWIS= 0;
+
+loadImagesWIS();
+function loadImagesWIS(){
+    let leftImageSrcWIS = drinkImages[convert(currentIndexWIS - 1, drinkImages)].source;
+    let mainImageSrcWIS = drinkImages[currentIndexWIS].source;
+    let rightImageSrcWIS = drinkImages[convert(currentIndexWIS + 1, drinkImages)].source;
+    leftImageWIS.src = `${leftImageSrcWIS}`
+    mainImageWIS.src = `${mainImageSrcWIS}`
+    rightImageWIS.src = `${rightImageSrcWIS}`
+}
+
+leftArrowWIS.addEventListener('click', ()=>{
+currentIndexWIS-=1;
+currentIndexWIS = convert(currentIndexWIS, drinkImages)
+loadImagesWIS();
+})
+
+rightArrowWIS.addEventListener('click', ()=>{
+    currentIndexWIS +=1;
+    currentIndexWIS = convert(currentIndexWIS, drinkImages)
+    loadImagesWIS();
+})
+
+
