@@ -97,7 +97,7 @@
     aspect-ratio: 3 / 2;
     overflow: hidden;
     border: solid;
-    border-color: white;
+    border-color: rgb(109, 103, 103);
     border-width: 3px;
     border-radius: 5%;
     margin-bottom: 10px;

@@ -105,7 +105,7 @@ import { menuImages } from "../data/images.js";
 
 const leftArrow = document.querySelector('.js-left-arrow');
 const rightArrow = document.querySelector('.js-right-arrow');
-const leftImage = document.querySelector('.js-display-image-right');
+const leftImage = document.querySelector('.js-display-image-left');
 const mainImage = document.querySelector('.js-display-image-main');
 const rightImage = document.querySelector('.js-display-image-right');
 
@@ -141,3 +141,21 @@ function convert(index){
     else if(index >= menuImages.length) index = 0;
     return index;
 }
+
+const tapasSec = document.querySelector('.js-read-more-tapas');
+const tapasArrow = document.querySelector('.js-right-arrow-tapas');
+const tapasDesc = document.querySelector('.js-description-tapas');
+
+tapasSec.addEventListener('click', ()=>{
+    let rotated = tapasArrow.style.transform === "rotate(90deg)";
+        if (rotated){
+            tapasArrow.style.transform = "rotate(0deg)";
+            tapasDesc.style.maxHeight = "0px"
+            tapasDesc.style.opacity = "0"
+        }
+        else{
+            tapasArrow.style.transform = "rotate(90deg)";
+            tapasDesc.style.maxHeight = "300px"
+            tapasDesc.style.opacity = "1"
+        }
+})

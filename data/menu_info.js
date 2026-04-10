@@ -1,7 +1,7 @@
 export const wWines = [
     {
-        name:"2018 Rose' of Petite Sirah - Rio Claro Wines",
-        description: "This beautiful rosé from Rio Claro showcases Petite Sirah in an unexpected and elegant form — deep salmon-pink in the glass with aromas of fresh strawberry, watermelon, and a subtle hint of black pepper that nods to its bold varietal roots.",
+        name:"2018 Rose' of Petite Sirah - Rio Claro Wines - AZ",
+        description: "Aromas of fresh strawberry, watermelon, and a subtle hint of black pepper that nods to its bold varietal roots.",
         glassPrice: 12,
         bottlePrice: 36,
         id:"ww0"
@@ -15,13 +15,13 @@ export const wWines = [
     },
     {
         name:"2023 White Blend - Stone Rose - Napa",
-        description: "none",
+        description: "A harmonious blend of vibrant citrus and delicate floral aromas, intertwined with hints of crisp green apple and subtle minerality.",
         glassPrice: 14,
         bottlePrice: 38,
         id:"ww2"
     },
     {
-        name:"2023 Gran Blanco - Rio Claro Wines",
+        name:"2023 Gran Blanco - Rio Claro Wines - AZ",
         description: "none",
         glassPrice: 12,
         bottlePrice: 30,
@@ -29,7 +29,7 @@ export const wWines = [
     },
     {
         name:'2022 Vurna Bogona - "Sto Fuori" Bianca',
-        description: "none",
+        description: "A balanced crisp acidity, with bright notes of white flowers and stone fruit.",
         glassPrice: 12,
         bottlePrice: 30,
         id:"ww4"
@@ -66,15 +66,15 @@ export const rWines = [
         id:"rw2"
     },
     {
-        name:"2021 Primos - Rio Claro Winery",
+        name:"2021 Primos - Rio Claro Winery - AZ",
         description: "none",
         glassPrice: 15,
         bottlePrice: 42,
         id:"rw3"
     },
     {
-        name:'2021 Cabernet Franc - Rio Claro Winery',
-        description: "none",
+        name:'2021 Cabernet Franc - Rio Claro Winery - AZ',
+        description: " in Yavapai County, Arizona. It is described as a 100% Cabernet Franc wine featuring a silky texture, notes of pepper, and an elegant, appetizing profile, highlighting dark fruit and savory notes.",
         glassPrice: 15,
         bottlePrice: 42,
         id:"rw4"
@@ -119,7 +119,7 @@ export const WIS = [
     },
     {
         name:"Wine Slushes",
-        price: 10,
+        price: 12,
     },
     {
         name:"Prosecco",
@@ -171,4 +171,9 @@ export const beers = [
         name:"Imported - Dos Equis",
         price: 7,
     },
+    {
+        name:"Heineken 0.0 - (Non-Alcoholic)",
+        price: 5,
+    },
 ]
+

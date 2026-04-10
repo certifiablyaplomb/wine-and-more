@@ -21,6 +21,20 @@ export const imageList=[
     },
     
 ]
+export const drinkImages = [
+    {
+        name: 'drink1',
+        source: './images/menu-images/drink1.jpeg', 
+    },
+    {
+        name: 'drink2',
+        source: './images/menu-images/drink2.jpg', 
+    },
+    {
+        name: 'drink3',
+        source: './images/menu-images/drink3.jpg', 
+    }
+]
 export const menuImages=[
     {
         name: 'charcutterie',
@@ -33,5 +47,21 @@ export const menuImages=[
     {
         name: 'olives',
         source: './images/menu-images/olives.jpg', 
+    },
+]
+
+export const newsLetterImages = [
+    {
+        name: 'paint-and-sip',
+        source: './images/news-letter/paint-and-sip.jpg', 
+    },
+    {
+        name: 'paint-and-sip-board',
+        source: './images/news-letter/paint-and-sip-board.jpg', 
+    },
+    {
+        name: 'dining',
+        source: './images/news-letter/dining.jpg', 
+
     }
 ]

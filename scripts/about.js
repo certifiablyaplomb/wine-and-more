@@ -1,37 +1,37 @@
 import { imageList } from "../data/images.js";
 
-const leftArrow = document.querySelector('.js-left-arrow');
-const rightArrow = document.querySelector('.js-right-arrow');
-const leftImage = document.querySelector('.js-display-image-left');
-const mainImage = document.querySelector('.js-display-image-main');
-const rightImage = document.querySelector('.js-display-image-right');
+// const leftArrow = document.querySelector('.js-left-arrow');
+// const rightArrow = document.querySelector('.js-right-arrow');
+// const leftImage = document.querySelector('.js-display-image-left');
+// const mainImage = document.querySelector('.js-display-image-main');
+// const rightImage = document.querySelector('.js-display-image-right');
 
-let currentImageIndex= 0;
+// let currentImageIndex= 0;
 
-loadImages();
-function loadImages(){
-    let leftImageSrc = imageList[convert(currentImageIndex - 1, imageList)].source;
-    let mainImageSrc = imageList[currentImageIndex].source;
-    let rightImageSrc = imageList[convert(currentImageIndex + 1, imageList)].source;
-    leftImage.src = `${leftImageSrc}`
-    mainImage.src = `${mainImageSrc}`
-    rightImage.src = `${rightImageSrc}`
-}
-
-
+// loadImages();
+// function loadImages(){
+//     let leftImageSrc = imageList[convert(currentImageIndex - 1, imageList)].source;
+//     let mainImageSrc = imageList[currentImageIndex].source;
+//     let rightImageSrc = imageList[convert(currentImageIndex + 1, imageList)].source;
+//     leftImage.src = `${leftImageSrc}`
+//     mainImage.src = `${mainImageSrc}`
+//     rightImage.src = `${rightImageSrc}`
+// }
 
 
-leftArrow.addEventListener('click', ()=>{
-    currentImageIndex-=1;
-    currentImageIndex = convert(currentImageIndex, imageList)
-    loadImages();
-})
 
-rightArrow.addEventListener('click', ()=>{
-    currentImageIndex +=1;
-    currentImageIndex = convert(currentImageIndex, imageList)
-    loadImages();
-})
+
+// leftArrow.addEventListener('click', ()=>{
+//     currentImageIndex-=1;
+//     currentImageIndex = convert(currentImageIndex, imageList)
+//     loadImages();
+// })
+
+// rightArrow.addEventListener('click', ()=>{
+//     currentImageIndex +=1;
+//     currentImageIndex = convert(currentImageIndex, imageList)
+//     loadImages();
+// })
 
 function convert(index, listname){
     if(index < 0) index = listname.length - 1;

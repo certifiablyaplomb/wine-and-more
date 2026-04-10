@@ -14,4 +14,15 @@ export const reviews = [
         review: "Amazing service, wonderful atmosphere, friendly staff.",
         author: "Gabby Sandy"
     },
+    {
+        stars: null,
+        review: " njoyed our tasting and Bev was awesome. Can't wait to visit again.",
+        author: "Cindy Garcia"
+    },
+    {
+        stars: 5,
+        review: "Great atmosphere and great wine selection It's a must go",
+        author: "Rob I."
+    }
+    
 ]
