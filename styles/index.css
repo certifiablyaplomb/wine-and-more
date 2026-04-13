@@ -43,7 +43,7 @@
     border-style: solid;
     border-width: 4px;
     /* border-radius: 5%; */
-    border-color:rgb(158, 156, 156);
+    border-color:rgb(0, 0, 0);
     transition: background-color 0.3s, font-weight 0.3s;
     text-decoration: none;
     -webkit-text-stroke: .61px rgb(0, 0, 0); ; 
