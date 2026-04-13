@@ -35,8 +35,8 @@ export const wWines = [
         id:"ww4"
     },
     {
-        name:"2023 Chardonnay - Ramsey - California",
-        description: "A crisp, medium-bodied white wine featuring aromas of pear, green apple, citrus, and floral blossom.",
+        name:"Borgo Boschetto Pinot Grigio - Italy",
+        description: "Armomas of pear, white pepper and flowers, offering a mineral driven palete.",
         glassPrice: 12,
         bottlePrice: 35,
         id:"ww5"
@@ -173,6 +173,10 @@ export const beers = [
     },
     {
         name:"Heineken 0.0 - (Non-Alcoholic)",
+        price: 5,
+    },
+    {
+        name:"Michelob Ultra - (Non-Alcoholic)",
         price: 5,
     },
 ]

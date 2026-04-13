@@ -33,7 +33,7 @@
 
 .menu-button{
     display: block;
-    color:rgb(0,0,0);
+    color:rgb(212, 206, 206);
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: clamp(1.3rem, 2.9vw, 3rem);
     font-weight:bold;
@@ -42,13 +42,14 @@
     background-color: transparent;
     border-style: solid;
     border-width: 4px;
-    border-color:rgb(0,0,0);
+    /* border-radius: 5%; */
+    border-color:rgb(0, 0, 0);
     transition: background-color 0.3s, font-weight 0.3s;
     text-decoration: none;
-    -webkit-text-stroke: .0px rgb(0, 0, 0); ; 
+    -webkit-text-stroke: .61px rgb(0, 0, 0); ; 
 }
 .menu-button:hover{
-    background-color: rgba(255, 244, 229, .2);
+    background-color: rgba(255, 255, 255, 0.2);
     font-weight:bold;
     cursor: pointer;
 }
