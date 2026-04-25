@@ -35,12 +35,35 @@ export const wWines = [
         id:"ww4"
     },
     {
-        name:"Borgo Boschetto Pinot Grigio - Italy",
-        description: "Armomas of pear, white pepper and flowers, offering a mineral driven palete.",
+        name:"2023 Chardonnay - Ramsey - California",
+        description: "A crisp, medium-bodied white wine featuring aromas of pear, green apple, citrus, and floral blossom.",
         glassPrice: 12,
         bottlePrice: 35,
         id:"ww5"
     },
+    {
+        name:"Pinot Grigio - Friulu  - Italy",
+        description: "A crisp, dry wine, offering an intense aroma, featuring notes of white fruit, mineral, and herbs.",
+        glassPrice: 12,
+        bottlePrice: 38,
+        id:"ww6"
+    },
+    {
+        name:"Pinot Grigio - Alverdi  - Italy",
+        description: " Bright and lively on the palate with strong acidity and a fair amount of minerality to round the wine out.",
+        glassPrice: 12,
+        bottlePrice: 30,
+        id:"ww7"
+    },
+    {
+        name:"Chardonnay - Genuine Auspicion  - California",
+        description: "Flavors of ripe pineapple, golden apple, and Anjou pear are balanced by citrus notes and a smooth, creamy finish.",
+        glassPrice: 12,
+        bottlePrice: 30,
+        id:"ww8"
+    },
+    
+   
 ]
 
 export const rWines = [
@@ -85,6 +108,13 @@ export const rWines = [
         glassPrice: 12,
         bottlePrice: 38,
         id:"rw5"
+    },
+    {
+        name:"2024 Cabernet Franc - Marquis de Goulaine Le Haut Presle - France",
+        description: "Offers aromas of black plum, red berries, and violet with notes of pepper and spice. Silky tannins with a fresh, mineral finish.",
+        glassPrice: 12,
+        bottlePrice: 38,
+        id:"rw6"
     },
 ]
 
@@ -173,10 +203,6 @@ export const beers = [
     },
     {
         name:"Heineken 0.0 - (Non-Alcoholic)",
-        price: 5,
-    },
-    {
-        name:"Michelob Ultra - (Non-Alcoholic)",
         price: 5,
     },
 ]
