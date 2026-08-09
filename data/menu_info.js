@@ -1,32 +1,46 @@
 export const wWines = [
     {
-        name:"2018 Rose' of Petite Sirah - Rio Claro Wines - AZ",
-        description: "Aromas of fresh strawberry, watermelon, and a subtle hint of black pepper that nods to its bold varietal roots.",
+        name:"2024 Coto De Hayas-Rose",
+        description: "Features a bright strawberry-pink color, fresh red fruit aromas, and crisp, well-balanced palate that finishes with a zesty citrus acidity.",
         glassPrice: 12,
         bottlePrice: 36,
         id:"ww0"
     },
-    {
-        name:"2023 Trullo Rheinbessen Riesling",
-        description: "An off-dry, aromatic German white wine, offering flavors of green apple, melon, and tropical fruit with a fresh, mineral-driven finish.",
-        glassPrice: 12,
-        bottlePrice: 25,
-        id:"ww1"
-    },
+    // {
+    //     name:"2018 Rose' of Petite Sirah - Rio Claro Wines - AZ",
+    //     description: "Aromas of fresh strawberry, watermelon, and a subtle hint of black pepper that nods to its bold varietal roots.",
+    //     glassPrice: 12,
+    //     bottlePrice: 36,
+    //     id:"ww0"
+    // },
+    // {
+    //     name:"2023 Trullo Rheinbessen Riesling",
+    //     description: "An off-dry, aromatic German white wine, offering flavors of green apple, melon, and tropical fruit with a fresh, mineral-driven finish.",
+    //     glassPrice: 12,
+    //     bottlePrice: 25,
+    //     id:"ww1"
+    // },
     {
         name:"2023 White Blend - Stone Rose - Napa",
         description: "A harmonious blend of vibrant citrus and delicate floral aromas, intertwined with hints of crisp green apple and subtle minerality.",
-        glassPrice: 14,
-        bottlePrice: 38,
+        glassPrice: 12,
+        bottlePrice: 28,
         id:"ww2"
     },
     {
-        name:"2023 Gran Blanco - Rio Claro Wines - AZ",
-        description: "Tropical fruit notes, which are balanced by a clean, crisp finish.",
+        name:"2023 Burgo Boshetto Pinot Grigio",
+        description: "Known for its solid structure and intense floral bouquet, it features a dry, refreshing profile with a balanced alcohol content.",
         glassPrice: 12,
-        bottlePrice: 30,
+        bottlePrice: 28,
         id:"ww3"
     },
+    // {
+    //     name:"2023 Gran Blanco - Rio Claro Wines - AZ",
+    //     description: "Tropical fruit notes, which are balanced by a clean, crisp finish.",
+    //     glassPrice: 12,
+    //     bottlePrice: 30,
+    //     id:"ww3"
+    // },
     {
         name:'2022 Vurna Bogona - "Sto Fuori" Bianca',
         description: "A balanced crisp acidity, with bright notes of white flowers and stone fruit.",
@@ -34,32 +48,32 @@ export const wWines = [
         bottlePrice: 30,
         id:"ww4"
     },
+    // {
+    //     name:"2023 Chardonnay - Ramsey - California",
+    //     description: "A crisp, medium-bodied white wine featuring aromas of pear, green apple, citrus, and floral blossom.",
+    //     glassPrice: 12,
+    //     bottlePrice: 35,
+    //     id:"ww5"
+    // },
+    // {
+    //     name:"Pinot Grigio - Friulu  - Italy",
+    //     description: "A crisp, dry wine, offering an intense aroma, featuring notes of white fruit, mineral, and herbs.",
+    //     glassPrice: 12,
+    //     bottlePrice: 38,
+    //     id:"ww6"
+    // },
+    // {
+    //     name:"Pinot Grigio - Alverdi  - Italy",
+    //     description: " Bright and lively on the palate with strong acidity and a fair amount of minerality to round the wine out.",
+    //     glassPrice: 12,
+    //     bottlePrice: 30,
+    //     id:"ww7"
+    // },
     {
-        name:"2023 Chardonnay - Ramsey - California",
-        description: "A crisp, medium-bodied white wine featuring aromas of pear, green apple, citrus, and floral blossom.",
-        glassPrice: 12,
-        bottlePrice: 35,
-        id:"ww5"
-    },
-    {
-        name:"Pinot Grigio - Friulu  - Italy",
-        description: "A crisp, dry wine, offering an intense aroma, featuring notes of white fruit, mineral, and herbs.",
-        glassPrice: 12,
-        bottlePrice: 38,
-        id:"ww6"
-    },
-    {
-        name:"Pinot Grigio - Alverdi  - Italy",
-        description: " Bright and lively on the palate with strong acidity and a fair amount of minerality to round the wine out.",
-        glassPrice: 12,
-        bottlePrice: 30,
-        id:"ww7"
-    },
-    {
-        name:"Chardonnay - Genuine Auspicion  - California",
+        name:"Chardonnay - Auspicion  - California",
         description: "Flavors of ripe pineapple, golden apple, and Anjou pear are balanced by citrus notes and a smooth, creamy finish.",
         glassPrice: 12,
-        bottlePrice: 30,
+        bottlePrice: 35,
         id:"ww8"
     },
     
@@ -75,10 +89,10 @@ export const rWines = [
         id:"rw0"
     },
     {
-        name:"2021 Butler Hill - Pinot Noit - OR",
-        description: "Features red currant, brambly blackberry, cocoa nibs, and steely minerality.",
-        glassPrice: 15,
-        bottlePrice: 38,
+        name:"2023 Pinot Noit - Heavyweight Winery - Monterey",
+        description: "An easy-drinking, fruit-forward wine, it offers a soft profile of ripe cherry and berry flavors.",
+        glassPrice: 12,
+        bottlePrice: 36,
         id:"rw1"
     },
     {
@@ -88,20 +102,20 @@ export const rWines = [
         bottlePrice: 42,
         id:"rw2"
     },
-    {
-        name:"2021 Primos - Rio Claro Winery - AZ",
-        description: "Deep fruit profiles, dark berries, and earthy, rustic notes influenced by high-elevation desert terroir.",
-        glassPrice: 15,
-        bottlePrice: 42,
-        id:"rw3"
-    },
-    {
-        name:'2021 Cabernet Franc - Rio Claro Winery - AZ',
-        description: " in Yavapai County, Arizona. It is described as a 100% Cabernet Franc wine featuring a silky texture, notes of pepper, and an elegant, appetizing profile, highlighting dark fruit and savory notes.",
-        glassPrice: 15,
-        bottlePrice: 42,
-        id:"rw4"
-    },
+    // {
+    //     name:"2021 Primos - Rio Claro Winery - AZ",
+    //     description: "Deep fruit profiles, dark berries, and earthy, rustic notes influenced by high-elevation desert terroir.",
+    //     glassPrice: 15,
+    //     bottlePrice: 42,
+    //     id:"rw3"
+    // },
+    // {
+    //     name:'2021 Cabernet Franc - Rio Claro Winery - AZ',
+    //     description: " in Yavapai County, Arizona. It is described as a 100% Cabernet Franc wine featuring a silky texture, notes of pepper, and an elegant, appetizing profile, highlighting dark fruit and savory notes.",
+    //     glassPrice: 15,
+    //     bottlePrice: 42,
+    //     id:"rw4"
+    // },
     {
         name:"2023 Malbec - Sur De Los Andes Classico - Argentina",
         description: "Offers intense aromas of blueberries, plums, and violet notes.",
@@ -109,13 +123,13 @@ export const rWines = [
         bottlePrice: 38,
         id:"rw5"
     },
-    {
-        name:"2024 Cabernet Franc - Marquis de Goulaine Le Haut Presle - France",
-        description: "Offers aromas of black plum, red berries, and violet with notes of pepper and spice. Silky tannins with a fresh, mineral finish.",
-        glassPrice: 12,
-        bottlePrice: 38,
-        id:"rw6"
-    },
+    // {
+    //     name:"2024 Cabernet Franc - Marquis de Goulaine Le Haut Presle - France",
+    //     description: "Offers aromas of black plum, red berries, and violet with notes of pepper and spice. Silky tannins with a fresh, mineral finish.",
+    //     glassPrice: 12,
+    //     bottlePrice: 38,
+    //     id:"rw6"
+    // },
 ]
 
 export const WIS = [
@@ -148,7 +162,7 @@ export const WIS = [
         price: 7,
     },
     {
-        name:"Wine Slushes",
+        name:"Wine Slushys",
         price: 12,
     },
     {
@@ -169,17 +183,13 @@ export const WIS = [
     },
 ]
 export const beers = [
-    {
-        name:"AZ - Mother Road - Tower Station - Pale Ale",
-        price: 4,
-    },
+    
     {
         name:"AZ - Full Moon - Belgian Wheat Ale",
         price: 8,
     },
     {
-        name:"AZ - WOW - Four Peaks",
-        price: 4,
+        name: "928 Local - Wunderlust Brewery - Flagstaff"
     },
     {
         name:"AZ - The Shop - Church Music - Hazy IPA, Juicy and Tropical",

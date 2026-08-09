@@ -98,7 +98,6 @@
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     font-size: 18px;
     color:white;
-    min-width: 150px;
 }
 li{
     margin-bottom: 25px;
@@ -228,4 +227,45 @@ li{
 
 .stacked-image{
     margin-bottom:10px;
+}
+
+
+.image-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Desktop: images and list sit side by side */
+.events-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: column; /* images stack on desktop */
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.image-row .image {
+  width: 200px; /* adjust to taste */
+  object-fit: cover;
+}
+
+/* Mobile: everything stacks, images go side by side */
+@media (max-width: 600px) {
+  .events-layout {
+    flex-direction: column;
+  }
+
+  .image-row {
+    flex-direction: row; /* images side by side on mobile */
+  }
+
+  .image-row .image {
+    width: 50%;
+  }
 }
