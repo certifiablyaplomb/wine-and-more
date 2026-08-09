@@ -1,11 +1,11 @@
 export const wWines = [
-    {
-        name:"2024 Coto De Hayas-Rose",
-        description: "Features a bright strawberry-pink color, fresh red fruit aromas, and crisp, well-balanced palate that finishes with a zesty citrus acidity.",
-        glassPrice: 12,
-        bottlePrice: 36,
-        id:"ww0"
-    },
+    // {
+    //     name:"2024 Coto De Hayas-Rose",
+    //     description: "Features a bright strawberry-pink color, fresh red fruit aromas, and crisp, well-balanced palate that finishes with a zesty citrus acidity.",
+    //     glassPrice: 12,
+    //     bottlePrice: 36,
+    //     id:"ww0"
+    // },
     // {
     //     name:"2018 Rose' of Petite Sirah - Rio Claro Wines - AZ",
     //     description: "Aromas of fresh strawberry, watermelon, and a subtle hint of black pepper that nods to its bold varietal roots.",
@@ -25,14 +25,21 @@ export const wWines = [
         description: "A harmonious blend of vibrant citrus and delicate floral aromas, intertwined with hints of crisp green apple and subtle minerality.",
         glassPrice: 12,
         bottlePrice: 28,
-        id:"ww2"
+        id:"ww0"
     },
     {
-        name:"2023 Burgo Boshetto Pinot Grigio",
-        description: "Known for its solid structure and intense floral bouquet, it features a dry, refreshing profile with a balanced alcohol content.",
+        name:"2025 Alverdi Pinot Grigio - Organic",
+        description: "Fresh aromas of green apple, citrus, and acacia flowers, complemented by a crisp, dry palate of stone fruit, bright acidity, and a clean mineral finish.",
         glassPrice: 12,
         bottlePrice: 28,
-        id:"ww3"
+        id:"ww1"
+    },
+    {
+        name:"2023 Ca Momi - Sauvignon Blac",
+        description: "Features aromas of citrus, tropical fruit, and golden delicious apple, complemented by a light green herbal note, with refreshing citrus, apple, and pear flavors on the palate.",
+        glassPrice: 12,
+        bottlePrice: 35,
+        id:"ww2"
     },
     // {
     //     name:"2023 Gran Blanco - Rio Claro Wines - AZ",
@@ -42,11 +49,11 @@ export const wWines = [
     //     id:"ww3"
     // },
     {
-        name:'2022 Vurna Bogona - "Sto Fuori" Bianca',
-        description: "A balanced crisp acidity, with bright notes of white flowers and stone fruit.",
+        name:"2022 Heavy Weight - Chardounnay - Monterey",
+        description: "Enticing aromas of ripe pear, tropical pineapple, and bright citrus zest, complemented by subtle layers of vanilla and toasty oak.",
         glassPrice: 12,
-        bottlePrice: 30,
-        id:"ww4"
+        bottlePrice: 35,
+        id:"ww3"
     },
     // {
     //     name:"2023 Chardonnay - Ramsey - California",
@@ -70,11 +77,18 @@ export const wWines = [
     //     id:"ww7"
     // },
     {
-        name:"Chardonnay - Auspicion  - California",
-        description: "Flavors of ripe pineapple, golden apple, and Anjou pear are balanced by citrus notes and a smooth, creamy finish.",
+        name:"2024 Coto De Hayes - Rose",
+        description: "Fresh red-fruit and caramel aromas, a wide and well-balanced palate.",
         glassPrice: 12,
-        bottlePrice: 35,
-        id:"ww8"
+        bottlePrice: 36,
+        id:"ww4"
+    },
+    {
+        name:"2024 Contini 'Pariglia'",
+        description: "Opens with an array of flowers and yellow fruits, with iodized touches in a delicate finish.",
+        glassPrice: 12,
+        bottlePrice: 36,
+        id:"ww5"
     },
     
    
@@ -89,17 +103,17 @@ export const rWines = [
         id:"rw0"
     },
     {
-        name:"2023 Pinot Noit - Heavyweight Winery - Monterey",
-        description: "An easy-drinking, fruit-forward wine, it offers a soft profile of ripe cherry and berry flavors.",
+        name:"2022 Ca Momi Rosso",
+        description: "Delivers fresh blackberry, blueberry compote, mellow oak, caramel, and a spicy finish.",
         glassPrice: 12,
         bottlePrice: 36,
         id:"rw1"
     },
     {
-        name:"2022 Classico Chianti - Balisca Cafaggio Estate",
-        description: "A medium-bodied, savory red featuring notes of sour cherry, black fruits, and spices.",
-        glassPrice: 15,
-        bottlePrice: 42,
+        name:"2024 Riporta Montepulciano d'Abruzzo",
+        description: "Peppery and earthy with black cherry and blackberry, leading to a smooth milk-chocolate finish.",
+        glassPrice: 14,
+        bottlePrice: 38,
         id:"rw2"
     },
     // {
@@ -117,11 +131,18 @@ export const rWines = [
     //     id:"rw4"
     // },
     {
-        name:"2023 Malbec - Sur De Los Andes Classico - Argentina",
-        description: "Offers intense aromas of blueberries, plums, and violet notes.",
+        name:"2023 Tarrica Winery - Cabernet Sauvignon",
+        description: "Features balanced fruit and tannins, finishing with berry and cedar notes.",
         glassPrice: 12,
         bottlePrice: 38,
         id:"rw5"
+    },
+    {
+        name:"2021 Bouchon - Merlot",
+        description: "Features lively black cherry aromas with lush fruit flavors, hints of vanilla, and a soft, smooth finish.",
+        glassPrice: 12,
+        bottlePrice: 38,
+        id:"rw6"
     },
     // {
     //     name:"2024 Cabernet Franc - Marquis de Goulaine Le Haut Presle - France",
@@ -158,8 +179,8 @@ export const WIS = [
         price: 12,
     },
     {
-        name:"Claw-Tails",
-        price: 7,
+        name:"Apple Cider",
+        price: 12,
     },
     {
         name:"Wine Slushys",
@@ -169,10 +190,10 @@ export const WIS = [
         name:"Prosecco",
         price: 12,
     },
-    {
-        name:"Austin East Black Berry Hard Cider",
-        price: 7,
-    },
+    // {
+    //     name:"Austin East Black Berry Hard Cider",
+    //     price: 7,
+    // },
     {
         name:"Spritzee",
         price: 7,
@@ -185,16 +206,16 @@ export const WIS = [
 export const beers = [
     
     {
-        name:"AZ - Full Moon - Belgian Wheat Ale",
+        name:"AZ - Full Moon - Orange Wheat Ale",
         price: 8,
     },
     {
         name: "928 Local - Wunderlust Brewery - Flagstaff"
     },
-    {
-        name:"AZ - The Shop - Church Music - Hazy IPA, Juicy and Tropical",
-        price: 8,
-    },
+    // {
+    //     name:"AZ - The Shop - Church Music - Hazy IPA, Juicy and Tropical",
+    //     price: 8,
+    // },
     {
         name:"AZ - Huss - Papago Orange Blossom - Light Wheat Ale",
         price: 8,
